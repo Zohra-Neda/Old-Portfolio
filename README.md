@@ -113,7 +113,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  cd my-folder
+  cd my-folder<br>
   git clone git@github.com:zohra-neda/my-project.git
 
 
