@@ -17,47 +17,6 @@ header {
   margin-top: 7%;
 }
 
-.nav #time {
-  position: absolute;
-  width: 18px;
-  height: 15px;
-  right: 323px;
-  top: 24px;
-  color: #fff;
-}
-
-.nav #connect {
-  position: absolute;
-  width: 18px;
-  height: 15px;
-  right: 86px;
-  top: 24px;
-  color: #fff;
-}
-
-nav #wifi {
-  position: absolute;
-  width: 18px;
-  height: 15px;
-  right: 60px;
-  top: 25px;
-  color: #fff;
-}
-
-nav #charge {
-  position: absolute;
-  width: 18px;
-  height: 9px;
-  right: 34px;
-  top: 27px;
-  background: #fff;
-  border-radius: 1.33333px;
-  -webkit-border-radius: 1.33333px;
-  -moz-border-radius: 1.33333px;
-  -ms-border-radius: 1.33333px;
-  -o-border-radius: 1.33333px;
-}
-
 nav #hamburger {
   font-size: medium;
   margin-left: 295px;
