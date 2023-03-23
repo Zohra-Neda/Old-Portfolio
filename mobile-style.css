@@ -1,11 +1,9 @@
-.container {
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#header {
+header {
   background-color: #3c3a39;
   width: 100%;
   margin: auto;
@@ -19,65 +17,51 @@
   margin-top: 7%;
 }
 
-nav #header-icons #time {
-  position: absolute;
-  width: 35px;
-  height: 15px;
-  left: 48px;
-  right: 90px;
-  top: 27px;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: -0.28px;
-  color: #fff;
-}
-
-nav #header-icons #connect {
+.nav #time {
   position: absolute;
   width: 18px;
   height: 15px;
-  right: 79px;
+  right: 323px;
   top: 24px;
   color: #fff;
 }
 
-nav #header-icons #wifi {
+.nav #connect {
   position: absolute;
   width: 18px;
   height: 15px;
-  right: 53px;
+  right: 86px;
+  top: 24px;
+  color: #fff;
+}
+
+nav #wifi {
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  right: 60px;
   top: 25px;
   color: #fff;
 }
 
-nav #header-icons #charge {
+nav #charge {
   position: absolute;
   width: 18px;
   height: 9px;
-  right: 19px;
+  right: 34px;
   top: 27px;
   background: #fff;
   border-radius: 1.33333px;
+  -webkit-border-radius: 1.33333px;
+  -moz-border-radius: 1.33333px;
+  -ms-border-radius: 1.33333px;
+  -o-border-radius: 1.33333px;
 }
 
-nav ul li {
-  color: white;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.125em;
-  font-weight: 700;
-  letter-spacing: 0;
-  background-color: rgb(56, 56, 56);
-  text-decoration: none;
-  list-style: none;
-}
-
-nav ul li #hamburger {
+nav #hamburger {
   font-size: medium;
-  margin-left: 250px;
+  margin-left: 295px;
+  margin-top: 26px;
 }
 
 #logo {
@@ -89,8 +73,22 @@ nav ul li #hamburger {
   text-decoration: none;
   position: absolute;
   height: 9px;
-  left: 39px;
+  left: 25px;
   top: 50px;
+}
+
+#headline ul li {
+  list-style: none;
+}
+
+#icon {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  justify-content: left;
+  text-align: left;
 }
 
 .social-icons {
@@ -99,9 +97,54 @@ nav ul li #hamburger {
   align-items: flex-start;
   color: #dbd8d7;
   font-size: 10px;
-  right: 5px;
-  width: 40px;
-  height: 40px;
+}
+
+#icon #github {
+  position: absolute;
+  left: 9%;
+  right: 0.01%;
+  top: 650px;
+  bottom: 0%;
+}
+
+#icon #linkedin1 {
+  position: absolute;
+  left: 20%;
+  right: 75.13%;
+  top: 654px;
+  bottom: 0%;
+}
+
+#icon #linkedin2 {
+  position: absolute;
+  left: 21.44%;
+  right: 0%;
+  top: 654px;
+  bottom: 0%;
+}
+
+#icon #hand {
+  position: absolute;
+  left: 32.58%;
+  right: 14.58%;
+  top: 651px;
+  bottom: 0%;
+}
+
+#icon #twitter {
+  position: absolute;
+  left: 44.04%;
+  right: 0.03%;
+  top: 653px;
+  bottom: 0%;
+}
+
+#icon #medium {
+  position: absolute;
+  left: 56.33%;
+  right: 8.33%;
+  top: 654px;
+  bottom: 16.67%;
 }
 
 #headline {
@@ -159,16 +202,6 @@ p {
   width: 100%;
   height: auto;
   color: #fff;
-}
-
-#icon {
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  width: 200px;
-  height: 40px;
-  justify-content: left;
-  text-align: left;
 }
 
 h2,
