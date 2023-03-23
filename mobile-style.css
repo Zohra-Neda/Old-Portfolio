@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3c3a39;
+  width: 100%;
+  margin: auto;
+  padding: 0.6em;
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+
+nav #hamburger {
+  font-size: medium;
+  margin-left: 295px;
+  margin-top: 26px;
+}
+
+#logo {
+  color: white;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
+  background-color: rgb(56, 56, 56);
+  text-decoration: none;
+  position: absolute;
+  height: 9px;
+  left: 25px;
+  top: 50px;
+}
+
+#headline ul li {
+  list-style: none;
+}
+
+#icon {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  justify-content: left;
+  text-align: left;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #dbd8d7;
+  font-size: 10px;
+}
+
+#icon #github {
+  position: absolute;
+  left: 9%;
+  right: 0.01%;
+  top: 650px;
+  bottom: 0%;
+}
+
+#icon #linkedin1 {
+  position: absolute;
+  left: 20%;
+  right: 75.13%;
+  top: 654px;
+  bottom: 0%;
+}
+
+#icon #linkedin2 {
+  position: absolute;
+  left: 21.44%;
+  right: 0%;
+  top: 654px;
+  bottom: 0%;
+}
+
+#icon #hand {
+  position: absolute;
+  left: 32.58%;
+  right: 14.58%;
+  top: 651px;
+  bottom: 0%;
+}
+
+#icon #twitter {
+  position: absolute;
+  left: 44.04%;
+  right: 0.03%;
+  top: 653px;
+  bottom: 0%;
+}
+
+#icon #medium {
+  position: absolute;
+  left: 56.33%;
+  right: 8.33%;
+  top: 654px;
+  bottom: 16.67%;
+}
+
+#headline {
+  width: 100%;
+  background-color: #1c1a19;
+  background-image: url("/images/mobile-images/header/headlin-image/headline-img.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 45% 45%;
+}
+
+#headline-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 88%;
+  height: 100vh;
+}
+
+#h1 {
+  width: 100%;
+  height: auto;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+h2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+  color: #fff5e1;
+  margin-top: 10%;
+}
+
+p {
+  display: flex;
+  text-align: left;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+
+h2,
+p {
+  margin-left: 5%;
+}
+
+h1,
+h2,
+p,
+ul {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.438em;
+}
