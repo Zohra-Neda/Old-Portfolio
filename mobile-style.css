@@ -62,7 +62,7 @@ nav #hamburger {
   position: absolute;
   left: 9%;
   right: 0.01%;
-  top: 650px;
+  top: 660px;
   bottom: 0%;
 }
 
@@ -70,7 +70,7 @@ nav #hamburger {
   position: absolute;
   left: 20%;
   right: 75.13%;
-  top: 654px;
+  top: 660px;
   bottom: 0%;
 }
 
@@ -78,7 +78,7 @@ nav #hamburger {
   position: absolute;
   left: 21.44%;
   right: 0%;
-  top: 654px;
+  top: 660px;
   bottom: 0%;
 }
 
@@ -86,7 +86,7 @@ nav #hamburger {
   position: absolute;
   left: 32.58%;
   right: 14.58%;
-  top: 651px;
+  top: 660px;
   bottom: 0%;
 }
 
@@ -94,7 +94,7 @@ nav #hamburger {
   position: absolute;
   left: 44.04%;
   right: 0.03%;
-  top: 653px;
+  top: 660px;
   bottom: 0%;
 }
 
@@ -102,7 +102,7 @@ nav #hamburger {
   position: absolute;
   left: 56.33%;
   right: 8.33%;
-  top: 654px;
+  top: 660px;
   bottom: 16.67%;
 }
 
@@ -176,3 +176,1149 @@ ul {
   margin: 0 auto;
   padding: 0.438em;
 }
+
+/* Middle section style */
+#middle {
+  width: 100%;
+  height: 1000px;
+}
+
+#middle h1 {
+  width: 327px;
+  height: 83px;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1C1A19;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#middle img {
+  width: 327px;
+  height: 237px;
+  display: flex;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 76px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#middle #second-tittle {
+  width: 327px;
+  height: 36px;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091E42;
+  text-align: right;
+  padding: 28px;
+}
+
+#middle p {
+  width: 327px;
+  height: 147px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #091E42;
+}
+
+#middle .lang-buttons {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  padding: 5px 5px;
+  width: 50px;
+  height: 40px;
+  background: #FFFFFF;
+  margin-left: 25px;
+}
+
+#middle .lang-list {
+  width: 31px;
+  height: 20px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding-right: 30px;
+  padding-left: 5px;
+  color: #091E42;
+  margin-right: 25px;
+  margin-left: -8px;
+  list-style: none;
+}
+
+.lang-list a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  height: 40px;
+  color: #091e42;
+  background-color: #fff;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  width: 73px;
+  padding: 10px 7px;
+}
+
+#middle #pro-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #FF6B00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin-left: 23px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  border: none;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+#middle #pro-btn:hover {
+  background-color: wheat;
+  color: grey;
+  opacity: 1;
+}
+
+/* End middle section style */
+
+/* Projects section style */
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  gap: 24px;
+  width: 100%;
+  height: 3000px;
+  margin: 2% 0 auto auto;
+}
+
+.frame1 {
+  background-image: url("./images/mobile-images/section-2/Img\ Placeholder.png");
+  width: 100%;
+  height: 600px;
+  margin-top: -127px;
+  background-repeat: no-repeat;
+}
+
+.card1 {
+  width: 80%;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+
+.card1 h2 {
+  display: flex;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 32px;
+  line-height: 33px;
+  margin-left: 13px;
+  color: #FFFFFF;
+}
+
+.card1 p {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: right;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  color: #FFFFFF;
+}
+
+#projects .card-lists1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  margin-right: 3px;
+  width: 67px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+.card-lists1 li {
+  list-style: none;
+}
+
+.card-lists1 li a {
+  text-decoration: none;
+}
+
+.card-lists1 #html-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists1 #bot-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists1 #ruby-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.frame1 .project-btn1 {
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  display: block;
+  background: #FF6B00;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  justify-content: center;
+  border: none;
+}
+
+.frame1 .project-btn1:hover {
+  background-color: wheat;
+  color: gray;
+  opacity: 1;
+}
+
+/* card 2 */
+
+.frame2 {
+  background-image: url("./images/mobile-images/section-2/Img\ Placeholder.png");
+  width: 100%;
+  height: 600px;
+  margin-top: -127px;
+  background-repeat: no-repeat;
+}
+
+.card2 {
+  width: 80%;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+
+.card2 h2 {
+  display: flex;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 32px;
+  line-height: 33px;
+  margin-left: 13px;
+  color: #FFFFFF;
+}
+
+.card2 p {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: right;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  color: #FFFFFF;
+}
+
+#projects .card-lists2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  margin-right: 3px;
+  width: 67px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+.card-lists2 li {
+  list-style: none;
+}
+
+.card-lists2 li a {
+  text-decoration: none;
+}
+
+.card-lists2 #html-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists2 #bot-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists2 #ruby-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.frame2 .project-btn2 {
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  display: block;
+  background: #FF6B00;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  justify-content: center;
+  border: none;
+}
+
+/* End card 2 */
+
+/* Card 3 */
+.frame3 {
+  background-image: url("./images/mobile-images/section-2/Img\ Placeholder.png");
+  width: 100%;
+  height: 600px;
+  margin-top: -127px;
+  background-repeat: no-repeat;
+}
+
+.card3 {
+  width: 80%;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+
+.card3 h2 {
+  display: flex;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 32px;
+  line-height: 33px;
+  margin-left: 13px;
+  color: #FFFFFF;
+}
+
+.card3 p {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: right;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  color: #FFFFFF;
+}
+
+#projects .card-lists3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  margin-right: 3px;
+  width: 67px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+.card-lists3 li {
+  list-style: none;
+}
+
+.card-lists3 li a {
+  text-decoration: none;
+}
+
+.card-lists3 #html-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists3 #bot-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists3 #ruby-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.frame3 .project-btn3 {
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  display: block;
+  background: #FF6B00;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  justify-content: center;
+  border: none;
+}
+
+/* End card 3 */
+
+/* Card 4 */
+.frame4 {
+  background-image: url("./images/mobile-images/section-2/Img\ Placeholder.png");
+  width: 100%;
+  height: 600px;
+  margin-top: -127px;
+  background-repeat: no-repeat;
+}
+
+.card4 {
+  width: 80%;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+
+.card4 h2 {
+  display: flex;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 32px;
+  line-height: 33px;
+  margin-left: 13px;
+  color: #FFFFFF;
+}
+
+.card4 p {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: right;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  color: #FFFFFF;
+}
+
+#projects .card-lists4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  margin-right: 3px;
+  width: 67px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+.card-lists4 li {
+  list-style: none;
+}
+
+.card-lists4 li a {
+  text-decoration: none;
+}
+
+.card-lists4 #html-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists4 #bot-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists4 #ruby-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.frame4 .project-btn4 {
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  display: block;
+  background: #FF6B00;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  justify-content: center;
+  border: none;
+}
+
+/* End card 4 */
+
+/* Cart 5 */
+.frame5 {
+  background-image: url("./images/mobile-images/section-2/Img\ Placeholder.png");
+  width: 100%;
+  height: 600px;
+  margin-top: -133px;
+  background-repeat: no-repeat;
+}
+
+.card5 {
+  width: 80%;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+
+.card5 h2 {
+  display: flex;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 32px;
+  line-height: 33px;
+  margin-left: 13px;
+  color: #FFFFFF;
+}
+
+.card5 p {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: right;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  color: #FFFFFF;
+}
+
+#projects .card-lists5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  margin-right: 3px;
+  width: 67px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+.card-lists5 li {
+  list-style: none;
+}
+
+.card-lists5 li a {
+  text-decoration: none;
+}
+
+.card-lists5 #html-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists5 #bot-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists5 #ruby-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.frame5 .project-btn5 {
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  display: block;
+  background: #FF6B00;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  justify-content: center;
+  border: none;
+}
+
+/* End card 5 */
+
+/* Cart 6 */
+.frame6 {
+  background-image: url("./images/mobile-images/section-2/Img\ Placeholder.png");
+  width: 100%;
+  height: 600px;
+  margin-top: -90px;
+  background-repeat: no-repeat;
+}
+
+.card6 {
+  width: 80%;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+
+.card6 h2 {
+  display: flex;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 32px;
+  line-height: 33px;
+  margin-left: 13px;
+  color: #FFFFFF;
+}
+
+.card6 p {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: right;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  color: #FFFFFF;
+}
+
+#projects .card-lists6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  margin-right: 3px;
+  width: 67px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+.card-lists6 li {
+  list-style: none;
+}
+
+.card-lists6 li a {
+  text-decoration: none;
+}
+
+.card-lists6 #html-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists6 #bot-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.card-lists6 #ruby-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 17px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: rgba(255, 255, 255, 0.24);
+  height: 40px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: -11px;
+  margin-right: 23px;
+}
+
+.frame6 .project-btn6 {
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  display: block;
+  background: #FF6B00;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  justify-content: center;
+  border: none;
+}
+
+/* End card 6 */
+
+/* End Projects section style */
+
+/* About section */
+#about {
+  left: 0;
+  width: 100%;
+  height: 1299px;
+  background-color: #1c1a19;
+  background-image: url("./images/mobile-images/about/Frame.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 14%;
+}
+
+#about h1 {
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 72px;
+  line-height: 88px;
+  margin-left: -21px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+}
+
+#about p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+}
+
+#resume-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 156px;
+  height: 48px;
+  background: #FF6B00;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-left: 18px;
+  border: none;
+  color: #FFFFFF;
+  margin-bottom: 153px;
+}
+
+#languages {
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  display: block;
+  margin-top: 2px;
+  color: #FFFFFF;
+}
+
+#languages li {
+  text-align: center;
+}
+
+#languages .skills {
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+}
+
+#languages li img {
+  margin-left: -41px;
+  margin-right: 12px;
+  font-weight: 700px;
+  font-size: 32px;
+}
+
+#frameworks {
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  display: block;
+  margin-top: 2px;
+  color: #FFFFFF;
+}
+
+#frameworks li {
+  text-align: center;
+}
+
+#frameworks .skills {
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+}
+
+#frameworks li img {
+  margin-left: -41px;
+  margin-right: 12px;
+  font-weight: 700px;
+  font-size: 32px;
+}
+
+#skills {
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 22px;
+  line-height: 43px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  display: block;
+  margin-top: 2px;
+  color: #FFFFFF;
+}
+
+#skills li {
+  text-align: center;
+}
+
+#skills .skills {
+  font-family: InaiMathi, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+}
+
+#skills li img {
+  margin-left: -41px;
+  margin-right: 12px;
+  font-weight: 700px;
+  font-size: 32px;
+}
+
+/* End about */
