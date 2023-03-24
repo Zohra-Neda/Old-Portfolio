@@ -1166,7 +1166,9 @@ ul {
 
 /* About section */
 #about {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   left: 0;
   width: 100%;
   height: 1299px;
@@ -1177,14 +1179,15 @@ ul {
   background-position-y: 14%;
 }
 
-#about h1 {
+#about h2 {
   font-family: Crete Round, sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   margin-left: -21px;
   letter-spacing: 0.37px;
+  align-items: center;
   color: #ff6b00;
 }
 
@@ -1195,6 +1198,7 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
+  align-items: center;
 }
 
 #resume-btn {
