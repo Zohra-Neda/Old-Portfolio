@@ -79,9 +79,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Responsive]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,11 +146,15 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Add it soon
+> In the future I will add it
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Contact form]**
+- [ ] **[Desktop version]**
+- [ ] **[Application deploy]**
+- [ ] **[Mobile menu]**
+- [ ] **[ Details modal ]**
+- [ ] **[Validate contact form]**
+- [ ] **[Preserve data in the browser]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,6 +202,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
