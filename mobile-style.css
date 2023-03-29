@@ -1354,9 +1354,14 @@ ul {
 
 #contact-form #contact-form-inputs .input-box {
   width: 100%;
-  height: auto;
+  height: 12px;
   display: flex;
   justify-content: center;
+}
+
+#contact-form #contact-form-inputs hr {
+  margin-bottom: 4px;
+  width: 100%;
 }
 
 #contact-form .input-box input {
@@ -1371,6 +1376,7 @@ ul {
   margin-bottom: 0;
   margin-right: 138px;
   padding: 5px;
+  outline: none;
 }
 
 #contact-form #contact-form-inputs textarea {
@@ -1405,6 +1411,7 @@ ul {
   color: #fff;
   border: none;
   cursor: pointer;
+  margin-top: 111px;
 }
 
 #footer {
@@ -1419,6 +1426,9 @@ ul {
 #footer #footer-ul #footer-icons li {
   list-style: none;
   padding: 5px 5px;
+  font-weight: 900;
+  color: #505f79;
+  font-size: 40px;
 }
 
 #footer-icons {
@@ -1430,48 +1440,51 @@ ul {
   justify-content: center;
   margin-top: 135px;
   margin-bottom: 6px;
+  color: #505f79;
+  font-weight: 900;
+  font-size: 25px;
 }
 
-.social-icons-footer {
-  display: flex;
-  flex-direction: row;
-  color: #dbd8d7;
-  font-size: 10px;
+#footer-icons .fa-github {
+  color: #505f79;
+  font-size: 35px;
+  padding: 6px;
 }
 
-#footer-icons #github-fo {
-  left: 9%;
-  right: 0.01%;
-  top: 660px;
-  bottom: 0%;
-}
-
-#footer-icons #linkedin1-fo {
+#footer-icons .fa-linkedin-in {
   left: 20%;
   right: 75.13%;
   top: 660px;
   bottom: 0%;
+  font-size: 35px;
+  padding: 6px;
 }
 
-#footer-icons #linkedin2-fo {
-  left: 21.44%;
-  right: 0%;
-  top: 660px;
-  bottom: 0%;
-}
-
-#footer-icons #hand-fo {
+#footer-icons .fa-angellist {
   left: 32.58%;
   right: 14.58%;
   top: 660px;
   bottom: 0%;
+  font-size: 35px;
+  padding: 6px;
 }
 
-#footer-icons #twitter-fo {
+#footer-icons .fa-twitter {
   left: 44.04%;
   right: 0.03%;
   top: 660px;
   bottom: 0%;
+  font-size: 35px;
+  padding: 6px;
+}
+
+#footer-icons .fa-m {
+  left: 44.04%;
+  right: 0.03%;
+  top: 660px;
+  bottom: 0%;
+  font-size: 35px;
+  padding: 6px;
 }
 
 #footer #footer-ul #shape-fo {
@@ -1481,10 +1494,15 @@ ul {
   right: 0.03%;
   top: 660px;
   margin-left: 120px;
+  margin-top: 114px;
   display: block;
   background: #0d151e;
   border-radius: 10px;
   align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 /* Contact form end */
