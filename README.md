@@ -133,7 +133,9 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Zohra Neda**
+👤 **Pawlos Tesfaye**
+👤 **Yashodhi Chathurangi**
 
 - GitHub: [@zohra-neda](https://github.com/zohra-neda)
 - Twitter: [@zohra_neda](https://twitter.com/zohra_neda)
