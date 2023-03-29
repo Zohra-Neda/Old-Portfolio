@@ -1414,6 +1414,12 @@ ul {
   margin-top: 111px;
 }
 
+#contact-form #form-btn button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
 #footer {
   width: 100%;
   height: 500px;
