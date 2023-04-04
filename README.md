@@ -133,18 +133,17 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Zohra Neda**
-👤 **Pawlos Tesfaye**
+👤 **Author1**
 
 - GitHub: [@zohra-neda](https://github.com/zohra-neda)
 - Twitter: [@zohra_neda](https://twitter.com/zohra_neda)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/zohra-neda-3716b720b/)
 
-👤 **Yashodhi Chathurangi**
+👤 **Author2**
 
-- GitHub: https://github.com/yashodhicy/
-- Twitter: https://twitter.com/Yashichathucy
-- LinkedIn: https://www.linkedin.com/in/yashodhichathurangi/
+- GitHub: [@omer-creator](https://github.com/omer-creator)
+- Twitter: [@micronaut_omer](https://twitter.com/micronaut_omer)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-omer-afzal-67ab17250/)
 
 <!-- FUTURE FEATURES -->
 
