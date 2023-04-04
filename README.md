@@ -133,14 +133,17 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Author1**
 
 - GitHub: [@zohra-neda](https://github.com/zohra-neda)
 - Twitter: [@zohra_neda](https://twitter.com/zohra_neda)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/zohra-neda-3716b720b/)
 
+👤 **Author2**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- GitHub: [@omer-creator](https://github.com/omer-creator)
+- Twitter: [@micronaut_omer](https://twitter.com/micronaut_omer)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-omer-afzal-67ab17250/)
 
 <!-- FUTURE FEATURES -->
 

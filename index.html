@@ -4,171 +4,196 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mobile-style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Crete Round|Inter|Roboto|Poppins">
     <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/d2575abd28.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Header section -->
-    <header>
-        <nav class="nav">
-            <a href="#" id="logo">My Logo</a>
-            <img id="hamburger" src="./images/mobile-images/header/header-icons/Union.png" alt="Hamburger-icon" srcset="">
+    <header class="header-container">
+        <a href="#" class="header-item item1" id="logo">My Logo</a>
+        <nav class="header-item nav item2">
+            <img id="hamburger" class="header-item" src="./images/mobile-images/header/header-icons/Union.png" alt="Hamburger-icon" srcset="">
         </nav>
     </header>
     <!-- End header section -->
 
     <!-- Headline section -->
-    <section id="headline">
-        <div id="headline-box">
-            <div id="headline-text">
-                <h1 id="h1">Hey There.I’m Zohra Neda.</h1>
-                <h2>I'm a Software Developer</h2>
-                <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hesitate to contact me.</p>
-            </div>
-            <ul id="icon">
-                <li><a href="#"><img id="github" class="social-icons" src="./images/mobile-images/header/social-media-icons/Vector-1.png" alt="-GitHub-icon"></a></li>
-                <li><a href="#"><img  id="linkedin1" class="social-icons" src="./images/mobile-images/header/social-media-icons/Vector2-1.png" alt="Linkedin-icon"></a></li>
-                <li><a href="#"><img  id="linkedin2" class="social-icons" src="./images/mobile-images/header/social-media-icons/Vector2-2.png" alt="Linkedin-icon"></a></li>
-                <li><a href="#"><img id="hand" class="social-icons" src="./images/mobile-images/header/social-media-icons/Vector-3.png" alt="hand-icon"></a></li>
-                <li><a href="#"><img id="twitter" class="social-icons" src="./images/mobile-images/header/social-media-icons/Vector-4.png" alt="Twitter-icon"></a></li>
-                <li><a href="#"><img id="medium" class="social-icons" src="/images/mobile-images/header/social-media-icons/Vector-5.png" alt="Medium-icon"></a></li>
-            </ul>
+    <section class="intro-container">
+        <div class="intro-content intro-section-item">
+            <h1 class="intro-content-item" id="intro-h1">Hey There.<br>I’m Zohra.</h1>
+            <h2 class="intro-content-item" id="intro-h2">I'm a Software Developer</h2>
+            <p class="intro-content-item" id="intro-p">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                don’t hesitate to contact me.</p>
         </div>
-    </section>
+        <ul class="intro-content-item icons-container">
+            <li><a class="icon-item" href="#"><img id="github" class="social-icons" src="./images/mobile-images/header/header-icons/github.svg" alt="-GitHub-icon"></a></li>
+            <li><a class="icon-item" href="#"><img  id="linkedin2" class="social-icons" src="./images/mobile-images/header/header-icons/linkedin.svg" alt="Linkedin-icon"></a></li>
+            <li><a class="icon-item" href="#"><img id="hand" class="social-icons" src="./images/mobile-images/header/header-icons/angellist.svg" alt="hand-icon"></a></li>
+            <li><a class="icon-item" href="#"><img id="twitter" class="social-icons" src="./images/mobile-images/header/header-icons/twitter.svg" alt="Twitter-icon"></a></li>
+            <li><a class="icon-item" href="#"><img id="medium" class="social-icons" src="./images/mobile-images/header/header-icons/m.svg" alt="Medium-icon"></a></li>
+        </ul>
+    </section><br><br>
     <!-- End headline section -->
 
     <!-- Middle section -->
-    <section id="middle">
-        <h1>My Recent Works</h1>
-        <hr>
-        <img src="./images/mobile-images/section-1/Img Placeholder.jpg" alt="">
-        <h2 id="second-tittle">Multi-Post Stories</h2>
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-        <ul class="lang-buttons">
-            <li class="lang-list"><a href="#">CSS</a></li>
-            <li class="lang-list"><a href="#">HTML</a></li>
-            <li class="lang-list"><a href="#">Bootstrap</a></li>
-            <li class="lang-list"><a href="#">Ruby</a></li>
-        </ul>
-        <button class="button" id="pro-btn">See project</button>
+    <section class="recent-works" id="middle">
+        <div class="recent-works-content">
+            <h1 class="recent-works-h1">My Recent Works</h1>
+            <hr class="recent-works-hr">
+        </div>
+        <div class="project-container  project1">
+            <img class="project-item project-image" src="./images/mobile-images/section-1/Img Placeholder.svg" alt="project-image">
+            <div class="project-details">
+                <h2 class="project-item second-tittle">Multi-Post Stories</h2>
+                <p class="project-item project-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul class="project-item lang-buttons-container">
+                    <li class="lang-list lang-css"><a class="lang-list-link" href="#">CSS</a></li>
+                    <li class="lang-list lang-html"><a class="lang-list-link" href="#">HTML</a></li>
+                    <li class="lang-list lang-boot"><a class="lang-list-link" href="#">Bootstrap</a></li>
+                    <li class="lang-list lang-ruby"><a class="lang-list-link" href="#">Ruby</a></li>
+                </ul>
+                <button class="project-item buttons project-button" id="pro-btn">See project</button>
+            </div>
+        </div>
+
+        <!-- Project carts -->
+        <div class="cart-container">
+            <div class="cart-project-container cart1">
+                <h2 class="cart-project-item cart-title">Professional Art Printing Data</h2>
+                <p class="cart-project-item cart-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+                <ul class="card-project-item cart-lang-container">
+                    <li class="cart-lang-item cart-lang-html"><a class="cart-lang-link" href="#">HTML</a></li>
+                    <li class="cart-lang-item cart-lang-boot"><a class="cart-lang-link" href="#">Bootstrap</a></li>
+                    <li class="cart-lang-item cart-lang-ruby"><a class="cart-lang-link" href="#">Ruby</a></li>
+                </ul>
+                <button class="cart-project-item project-btn buttons">See Project</button>
+            </div>
+
+            <div class="cart-project-container cart2">
+                <h2 class="cart-project-item cart-title">Professional Art Printing Data</h2>
+                <p class="cart-project-item cart-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+                <ul class="card-project-item cart-lang-container">
+                    <li class="cart-lang-item cart-lang-html"><a class="cart-lang-link" href="#">HTML</a></li>
+                    <li class="cart-lang-item cart-lang-boot"><a class="cart-lang-link" href="#">Bootstrap</a></li>
+                    <li class="cart-lang-item cart-lang-ruby"><a class="cart-lang-link" href="#">Ruby</a></li>
+                </ul>
+                <button class="cart-project-item project-btn buttons">See Project</button>
+            </div>
+
+            <div class="cart-project-container cart3">
+                <h2 class="cart-project-item cart-title">Professional Art Printing Data</h2>
+                <p class="cart-project-item cart-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+                <ul class="card-project-item cart-lang-container">
+                    <li class="cart-lang-item cart-lang-html"><a class="cart-lang-link" href="#">HTML</a></li>
+                    <li class="cart-lang-item cart-lang-boot"><a class="cart-lang-link" href="#">Bootstrap</a></li>
+                    <li class="cart-lang-item cart-lang-ruby"><a class="cart-lang-link" href="#">Ruby</a></li>
+                </ul>
+                <button class="cart-project-item project-btn buttons">See Project</button>
+            </div>
+
+            <div class="cart-project-container cart4">
+                <h2 class="cart-project-item cart-title">Professional Art Printing Data</h2>
+                <p class="cart-project-item cart-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+                <ul class="card-project-item cart-lang-container">
+                    <li class="cart-lang-item cart-lang-html"><a class="cart-lang-link" href="#">HTML</a></li>
+                    <li class="cart-lang-item cart-lang-boot"><a class="cart-lang-link" href="#">Bootstrap</a></li>
+                    <li class="cart-lang-item cart-lang-ruby"><a class="cart-lang-link" href="#">Ruby</a></li>
+                </ul>
+                <button class="cart-project-item project-btn buttons">See Project</button>
+            </div>
+
+            <div class="cart-project-container cart5">
+                <h2 class="cart-project-item cart-title">Professional Art Printing Data</h2>
+                <p class="cart-project-item cart-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+                <ul class="card-project-item cart-lang-container">
+                    <li class="cart-lang-item cart-lang-html"><a class="cart-lang-link" href="#">HTML</a></li>
+                    <li class="cart-lang-item cart-lang-boot"><a class="cart-lang-link" href="#">Bootstrap</a></li>
+                    <li class="cart-lang-item cart-lang-ruby"><a class="cart-lang-link" href="#">Ruby</a></li>
+                </ul>
+                <button class="cart-project-item project-btn buttons">See Project</button>
+            </div>
+
+            <div class="cart-project-container cart6">
+                <h2 class="cart-project-item cart-title">Professional Art Printing Data</h2>
+                <p class="cart-project-item cart-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+                <ul class="card-project-item cart-lang-container">
+                    <li class="cart-lang-item cart-lang-html"><a class="cart-lang-link" href="#">HTML</a></li>
+                    <li class="cart-lang-item cart-lang-boot"><a class="cart-lang-link" href="#">Bootstrap</a></li>
+                    <li class="cart-lang-item cart-lang-ruby"><a class="cart-lang-link" href="#">Ruby</a></li>
+                </ul>
+                <button class="cart-project-item project-btn buttons">See Project</button>
+            </div>
+        </div>
+        <!-- Project car end -->
     </section>
     <!-- End Middle section -->
 
-    <!-- Project section -->
-    <section id="projects">
-        <div class="frame1">
-            <div class="card1">
-                <h2>Profesional Art Printing Data</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                <ul class="card-lists1">
-                    <li><a id="html-btn" href="#">HTML</a></li>
-                    <li><a id="bot-btn" href="#">Bootstrap</a></li>
-                    <li><a id="ruby-btn" href="#">Ruby</a></li>
-                </ul>
-            </div>
-            <button class="project-btn1">See Project</button>
-        </div>
-        <div class="frame2">
-            <div class="card2">
-                <h2>Profesional Art Printing Data</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                <ul class="card-lists2">
-                    <li><a id="html-btn" href="#">HTML</a></li>
-                    <li><a id="bot-btn" href="#">Bootstrap</a></li>
-                    <li><a id="ruby-btn" href="#">Ruby</a></li>
-                </ul>
-            </div>
-            <button class="project-btn2">See Project</button>
-        </div>
-
-        <div class="frame3">
-            <div class="card3">
-                <h2>Profesional Art Printing Data</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                <ul class="card-lists3">
-                    <li><a id="html-btn" href="#">HTML</a></li>
-                    <li><a id="bot-btn" href="#">Bootstrap</a></li>
-                    <li><a id="ruby-btn" href="#">Ruby</a></li>
-                </ul>
-            </div>
-            <button class="project-btn3">See Project</button>
-        </div>
-
-        <div class="frame4">
-            <div class="card4">
-                <h2>Profesional Art Printing Data</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                <ul class="card-lists4">
-                    <li><a id="html-btn" href="#">HTML</a></li>
-                    <li><a id="bot-btn" href="#">Bootstrap</a></li>
-                    <li><a id="ruby-btn" href="#">Ruby</a></li>
-                </ul>
-            </div>
-            <button class="project-btn4">See Project</button>
-        </div>
-        <div class="frame5">
-            <div class="card5">
-                <h2>Profesional Art Printing Data</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                <ul class="card-lists5">
-                    <li><a id="html-btn" href="#">HTML</a></li>
-                    <li><a id="bot-btn" href="#">Bootstrap</a></li>
-                    <li><a id="ruby-btn" href="#">Ruby</a></li>
-                </ul>
-            </div>
-            <button class="project-btn5">See Project</button>
-        </div>
-        <div class="frame6">
-            <div class="card6">
-                <h2>Profesional Art Printing Data</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                <ul class="card-lists6">
-                    <li><a id="html-btn" href="#">HTML</a></li>
-                    <li><a id="bot-btn" href="#">Bootstrap</a></li>
-                    <li><a id="ruby-btn" href="#">Ruby</a></li>
-                </ul>
-            </div>
-            <button class="project-btn6">See Project</button>
-        </div>
-    </section>
-    <!-- End project section -->
 
     <!-- About section -->
-    <section id="about">
-        <h2>About me</h2>
-        <p id="about-me">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-        <button id="resume-btn">Get my resume</button>
-        <hr>
-        <ul id="techs">
-            <li class="skills"><img src="./images/mobile-images/about/Rectangle 55.png" alt="">Language
-                <ul id="language">
-                    <li>Javascript</li>
-                    <li>Ruby</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-            </li>
-            <li class="skills"><img src="./images/mobile-images/about/Rectangle 56.png" alt="">Frameworks
-                <ul id="frameworks">
-                    <li>React.js</li>
-                    <li>Ruby on Rails</li>
-                    <li>RSpes</li>
-                    <li>Copybara</li>
-                </ul>
-            </li>
-            <li class="skills"><img src="./images/mobile-images/about/Rectangle 57.png" alt="">Skills
-                <ul id="skills">
-                    <li>Database Management</li>
-                    <li>Version Control</li>
-                    <li>CLI</li>
-                    <li>API Design</li>
-                    <li>Web Development</li>
-                </ul>
-            </li>
-        </ul>
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-items">
+                <h2 class="about-title">About me</h2>
+                <p class="about-p">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                <button class="resume-btn buttons">Get my resume</button>
+            </div>
+            <img class="about-hr" src="./images/mobile-images/about/Container.png" alt="">
+            <!-- <hr class="about-line"> -->
+            <ul id="techs">
+                <li class="skills"><img src="./images/mobile-images/about/Rectangle 55.svg" alt="">Language
+                    <ul id="language">
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+                <li class="skills"><img src="./images/mobile-images/about/Rectangle 56.svg" alt="">Frameworks
+                    <ul id="frameworks">
+                        <li>React.js</li>
+                        <li>Ruby on Rails</li>
+                        <li>RSpes</li>
+                        <li>Copybara</li>
+                    </ul>
+                </li>
+                <li class="skills"><img src="./images/mobile-images/about/Rectangle 57.svg" alt="">Skills
+                    <ul id="skills">
+                        <li>Database Management</li>
+                        <li>Version Control</li>
+                        <li>CLI</li>
+                        <li>API Design</li>
+                        <li>Web Development</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </section>
     <!-- End about section -->
 
+    <!-- Contact form start -->
+    <footer class="contact-me" id="contact-form">
+        <h2 class="contact-form-h2" id="h2">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+        <form class="form" id="form" action="https://formspree.io/f/xyyangbj" method="post">
+            <input class="input-box" id="name" type="text" name="name" placeholder="Full name" maxlength="30" required/>
+            <hr class="input-box-hr">
+            <input id="email" class="input-box" type="email" name="email" placeholder="Email address" required/>
+            <hr class="input-box-hr">
+            <textarea class="input-box msg" id="msg" name="msg" maxlength="500" placeholder="Write me something..." required></textarea>
+            <button type="submit" class="form-submit buttons">Get in touch</button>
+        </form>
+        <div class="social-media-icons">
+            <hr id="footer-hr">
+            <ul class="icons-container  footer-icon-container">
+                <li class="icon-element github-icon"><a href="#"><img src="./images/mobile-images/footer/icon/github.svg" alt="github"></a></li>
+                <li class="icon-element linkedin-icon"><a href="#"><img src="./images/mobile-images/footer/icon/linkdin.svg" alt="linkedin"></a></li>
+                <li class="icon-element ang-icon"><a href="#"><img src="./images/mobile-images/footer/icon/angellist.svg" alt="ang"></a></li>
+                <li class="icon-element twitter-icon"><a href="#"><img src="./images/mobile-images/footer/icon/twitter.svg" alt="twitter"></a></li>
+                <li class="icon-element m-icon"><a href="#"><img src="./images/mobile-images/footer/icon/medium.svg" alt="m"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Contact form end -->
 </body>
 </html>
