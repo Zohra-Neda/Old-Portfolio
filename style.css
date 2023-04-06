@@ -1289,7 +1289,7 @@
     color: #f4f5f7;
     margin: 0;
     margin-top: 1rem;
-    margin-left: calc((100% - 327px) / 2);
+    margin-left: 9rem;
   }
 
   .resume-btn {
@@ -1308,7 +1308,7 @@
     margin-bottom: 12rem;
     margin-top: 1rem;
     align-self: baseline;
-    margin-left: 7rem;
+    margin-left: 9.5rem;
   }
 
   .about-hr {
