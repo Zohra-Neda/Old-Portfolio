@@ -12,19 +12,6 @@
   }
 }
 
-.header-container {
-  width: 327px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: #3c3a39;
-  padding-left: 1rem;
-  padding-right: 2rem;
-  margin: auto;
-  height: 92px;
-}
-
 .header-item {
   width: 50%;
 }
@@ -52,6 +39,19 @@
 
 .des-navbar-container {
   display: none;
+}
+
+.header-container {
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #3c3a39;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  margin: auto;
+  height: 92px;
 }
 
 /* Intro section start */
