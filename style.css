@@ -956,6 +956,11 @@
     margin-left: 0;
   }
 
+  .project-image:hover {
+    transform: scale(1.1);
+    transition: width 2s, height 2s, transform 2s;
+  }
+
   .project-details {
     width: 40%;
     height: 448px;
@@ -1308,7 +1313,7 @@
     margin-bottom: 12rem;
     margin-top: 1rem;
     align-self: baseline;
-    margin-left: 9.5rem;
+    margin-left: 6.5rem;
   }
 
   .about-hr {
