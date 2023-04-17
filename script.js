@@ -15,5 +15,5 @@ openHamburger.addEventListener('click', hamburgerShow);
 closeHamburger.addEventListener('click', hamburgerHide);
 
 hamburgerItems.forEach((item) => {
-    item.addEventListener('click', hamburgerHide);
-  });
+  item.addEventListener('click', hamburgerHide);
+});
