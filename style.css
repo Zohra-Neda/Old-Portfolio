@@ -1534,7 +1534,7 @@
   .techs-container {
     display: flex;
     flex-direction: row;
-    margin-left: -39.5rem;
+    align-self: flex-start;
     margin-bottom: 1rem;
   }
 
