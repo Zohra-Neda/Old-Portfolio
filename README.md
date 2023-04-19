@@ -186,7 +186,7 @@ I would like to thank Microverse for initiating the idea behind project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
+<!-- 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 - **[Question_1]**
@@ -195,7 +195,7 @@ I would like to thank Microverse for initiating the idea behind project
 
 - **[Question_2]**
 
-  - [Answer_2]
+  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
