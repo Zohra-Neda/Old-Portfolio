@@ -1481,7 +1481,7 @@
     margin-bottom: 3rem;
     margin-left: 15rem;
     width: 70%;
-    height: 80%;
+    height: 65%;
     background: #fff;
     border: 1px solid #dfe1e6;
     gap: 0;
@@ -1501,6 +1501,7 @@
 
   .details-container {
     display: flex;
+    margin-bottom: -6rem;
   }
 
   .modal-header {
@@ -1508,6 +1509,8 @@
     width: 100%;
     justify-content: space-between;
     flex-direction: row;
+    margin-bottom: -38px;
+    margin-top: -6rem;
   }
 
   .modal-close {
@@ -1531,8 +1534,8 @@
   .techs-container {
     display: flex;
     flex-direction: row;
-    padding: 1rem;
     margin-left: -39.5rem;
+    margin-bottom: 1rem;
   }
 
   .tech-item {
@@ -1575,13 +1578,14 @@
   .popup-p {
     width: 90%;
     margin-left: 1rem;
-    height: 220px;
+    height: 20px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
     color: #344563;
+    margin-bottom: 8rem;
   }
 
   .buttons-container {
@@ -1589,6 +1593,7 @@
     gap: 3%;
     padding: 0;
     margin-left: 5%;
+    margin-top: 7rem;
   }
 
   .popup-btn1 {
