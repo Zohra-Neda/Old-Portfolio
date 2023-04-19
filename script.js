@@ -2,6 +2,8 @@ const hamburgerContainer = document.querySelector('.hamburger-container');
 const hamburgerItems = document.querySelectorAll('.menuLink');
 const closeHamburger = document.querySelector('.hamburger-close');
 const openHamburger = document.querySelector('#hamburger');
+const projectsBtn = document.querySelectorAll('projects-btn');
+const modalClose = document.querySelector('modal-close');
 
 function hamburgerShow() {
   hamburgerContainer.setAttribute('style', 'display: block');
@@ -44,7 +46,7 @@ function workSectionProjectFunction() {
       <li class="lang-list lang-boot"><a class="lang-list-link" href="#">${workSectionProject.lang3}</a></li>
       <li class="lang-list lang-ruby"><a class="lang-list-link" href="#">${workSectionProject.lang4}</a></li>
     </ul>
-    <button class="project-item buttons project-button" onClick='popupShow();' id="pro-btn" type="button">${workSectionProject.button}</button>`;
+    <button class="project-item buttons project-button projects-btn" onClick='popupShow();' id="pro-btn" type="button">${workSectionProject.button}</button>`;
 
   projectContainer.innerHTML = `
   <img class="project-item project-image" src="./images/mobile-images/section-1/${workSectionProject.image}" alt="project-image">`;
@@ -107,7 +109,7 @@ function cardSectionProjectFunction() {
             <li class="cart-lang-item cart-lang-boot"><a class="cart-lang-link" href="#">${Project.lang2}</a></li>
             <li class="cart-lang-item cart-lang-ruby"><a class="cart-lang-link" href="#">${Project.lang3}</a></li>
           </ul>
-          <button class="cart-project-item project-btn buttons" type="button" onClick='popupShow();'>${Project.button}</button>
+          <button class="cart-project-item project-btn buttons projects-btn" type="button" onClick='popupShow();'>${Project.button}</button>
         </div>`;
     });
 
@@ -170,3 +172,6 @@ function popupHide() {
 function popupShow() {
   popupContainer.setAttribute('style', 'display:block');
 }
+
+projectsBtn.addEventListener('click', popupShow);
+modalClose.addEventListener('click', popupHide);
