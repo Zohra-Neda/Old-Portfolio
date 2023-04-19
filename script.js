@@ -162,6 +162,7 @@ function popUpWindow() {
 }
 
 window.addEventListener('load', popUpWindow);
+
 function popupHide() {
   popupContainer.setAttribute('style', 'display:none');
 }
