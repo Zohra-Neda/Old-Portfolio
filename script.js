@@ -174,6 +174,7 @@ window.addEventListener('load', popUpWindow);
 
 // FORM VALIDATION START
 const form = document.getElementById('form');
+const username = document.getElementById('username');
 const email = document.getElementById('email');
 const error = document.querySelector('.alert');
 const textArea = document.getElementById('msg');
@@ -190,7 +191,7 @@ form.addEventListener('submit', (e) => {
   const formData = {
     username: username.value,
     email: email.value,
-    msg: textArea.value
+    msg: textArea.value,
   };
   localStorage.setItem('formData', JSON.stringify(formData));
 });
@@ -203,6 +204,5 @@ if (storedData) {
   email.value = parsedData.email;
   textArea.value = parsedData.msg;
 }
-
 
 // FORM VALIDATION END
