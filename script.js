@@ -2,8 +2,8 @@ const hamburgerContainer = document.querySelector('.hamburger-container');
 const hamburgerItems = document.querySelectorAll('.menuLink');
 const closeHamburger = document.querySelector('.hamburger-close');
 const openHamburger = document.querySelector('#hamburger');
-const projectsBtn = document.querySelectorAll('projects-btn');
-const modalClose = document.querySelector('modal-close');
+// const projectsBtn = document.querySelectorAll('projects-btn');
+// const modalClose = document.querySelector('modal-close');
 
 function hamburgerShow() {
   hamburgerContainer.setAttribute('style', 'display: block');
@@ -161,13 +161,31 @@ function popUpWindow() {
 
 window.addEventListener('load', popUpWindow);
 
-function popupHide() {
-  popupContainer.setAttribute('style', 'display:none');
-}
+// function popupHide() {
+//   popupContainer.setAttribute('style', 'display:none');
+// }
 
-function popupShow() {
-  popupContainer.setAttribute('style', 'display:block');
-}
+// function popupShow() {
+//   popupContainer.setAttribute('style', 'display:block');
+// }
 
-projectsBtn.addEventListener('click', popupShow);
-modalClose.addEventListener('click', popupHide);
+// projectsBtn.addEventListener('click', popupShow);
+// modalClose.addEventListener('click', popupHide);
+
+// FORM VALIDATION START
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const error = document.querySelector('.alert');
+
+const emailRegExp = /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]+(?:\.[a-z-0-9-]+)*$/;
+
+form.addEventListener('submit', (e) => {
+  if (!emailRegExp.test(email.value)) {
+    e.preventDefault();
+    error.textContent = 'Expected valid email address!';
+  } else {
+    error.textContent = '';
+  }
+});
+
+// FORM VALIDATION END
