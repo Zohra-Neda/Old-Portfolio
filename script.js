@@ -181,23 +181,33 @@ const textArea = document.getElementById('msg');
 
 const emailRegExp = /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]+(?:\.[a-z-0-9-]+)*$/;
 
-form.addEventListener('submit', (e) => {
-  if (!emailRegExp.test(email.value)) {
-    e.preventDefault();
-    error.textContent = 'Expected valid email address!';
-  } else {
-    error.textContent = '';
-  }
+// Function to save form data to local storage
+function saveFormData() {
   const formData = {
     username: username.value,
     email: email.value,
     msg: textArea.value,
   };
   localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+// Event listeners for input fields
+username.addEventListener('input', saveFormData);
+email.addEventListener('input', saveFormData);
+textArea.addEventListener('input', saveFormData);
+
+form.addEventListener('submit', (e) => {
+  if (!emailRegExp.test(email.value)) {
+    e.preventDefault();
+    error.textContent = 'Expected email address to be lowercase!';
+  } else {
+    error.textContent = '';
+  }
 });
 
 // To retrieve data from local storage
 const storedData = localStorage.getItem('formData');
+
 if (storedData) {
   const parsedData = JSON.parse(storedData);
   username.value = parsedData.username;
