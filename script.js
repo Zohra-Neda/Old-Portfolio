@@ -199,7 +199,7 @@ textArea.addEventListener('input', saveFormData);
 form.addEventListener('submit', (e) => {
   if (!emailRegExp.test(email.value)) {
     e.preventDefault();
-    error.textContent = 'Expected email address to be lowercase!';
+    error.textContent = 'Expected valid email address!';
   } else {
     error.textContent = '';
   }
