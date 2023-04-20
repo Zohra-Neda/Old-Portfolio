@@ -176,6 +176,7 @@ window.addEventListener('load', popUpWindow);
 const form = document.getElementById('form');
 const email = document.getElementById('email');
 const error = document.querySelector('.alert');
+const textArea = document.getElementById('msg');
 
 const emailRegExp = /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]+(?:\.[a-z-0-9-]+)*$/;
 
@@ -186,6 +187,22 @@ form.addEventListener('submit', (e) => {
   } else {
     error.textContent = '';
   }
+  const formData = {
+    username: username.value,
+    email: email.value,
+    msg: textArea.value
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
 });
+
+// To retrieve data from local storage
+const storedData = localStorage.getItem('formData');
+if (storedData) {
+  const parsedData = JSON.parse(storedData);
+  username.value = parsedData.username;
+  email.value = parsedData.email;
+  textArea.value = parsedData.msg;
+}
+
 
 // FORM VALIDATION END
