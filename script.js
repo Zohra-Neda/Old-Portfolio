@@ -169,5 +169,26 @@ function popupShow() {
   popupContainer.setAttribute('style', 'display:block');
 }
 
-projectsBtn.addEventListener('click', popupShow);
-modalClose.addEventListener('click', popupHide);
+// projectsBtn.addEventListener('click', popupShow);
+// modalClose.addEventListener('click', popupHide);
+
+// FORM VALIDATION START
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const error = document.querySelector('.alert');
+const textArea = document.getElementById('text');
+
+const emailRegExp = /^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]+(?:\.[a-z-0-9-]+)*$/;
+
+form.addEventListener('submit', (e) => {
+  if (!emailRegExp.test(email.value)) {
+    e.preventDefault();
+    error.textContent = 'Expected valid email address!';
+  }
+
+  else {
+    error.textContent = '';
+  }
+});
+
+// FORM VALIDATION END
