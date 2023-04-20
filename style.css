@@ -1529,6 +1529,9 @@
     background-color: #fff;
     padding: 1rem;
   }
+  .error-msg {
+    color: red;
+  }
 
   /* Contact form end */
 }
