@@ -1906,7 +1906,7 @@
   }
 
   .msg {
-    height: 114px;
+    height: 85px;
     background: #fbf8f7;
     width: 94%;
     padding: 1rem;
@@ -1930,7 +1930,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
-    margin-left: -23.5rem;
+    align-self: flex-start;
   }
 
   #footer-hr {
