@@ -183,12 +183,9 @@ form.addEventListener('submit', (e) => {
   if (!emailRegExp.test(email.value)) {
     e.preventDefault();
     error.textContent = 'Expected valid email address!';
-  }
-
-  else {
+  } else {
     error.textContent = '';
   }
-
 });
 
 // FORM VALIDATION END
