@@ -188,6 +188,7 @@ form.addEventListener('submit', (e) => {
   else {
     error.textContent = '';
   }
+
 });
 
 // FORM VALIDATION END
