@@ -11,7 +11,7 @@ const works = [
   },
   {
     name: 'Metrics Web App',
-    image: './images/metrics-web-app.png',
+    image: './images/metrics-web-app.PNG',
 
     tags: ['Metrics Web App', 'Front End Dev', '2023'],
     live: 'https://metrics-web-app-zn.onrender.com/',
@@ -54,7 +54,7 @@ const works = [
   },
   {
     name: 'To-Do List',
-    image: './images/todo-list.png',
+    image: './images/todo-list.PNG',
     tags: ['To-Do', 'Front End Dev', '2023'],
     live: 'https://zohra-neda.github.io/To-Do-List/dist/',
     repository: 'https://github.com/Zohra-Neda/To-Do-List',
