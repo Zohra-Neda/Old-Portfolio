@@ -1,151 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Crete Round|Inter|Roboto|Poppins">
-    <title>Zohra Neda Portfolio</title>
-    <script src="https://kit.fontawesome.com/d2575abd28.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/modal.css">
+
+    <script src="https://kit.fontawesome.com/baf7e9f545.js" crossorigin="anonymous"></script>
+    <title>My Portfolio home page</title>
 </head>
+
 <body>
-    <!-- Header section -->
-    <header class="header-container">
-        <a href="#" class="header-item item1" id="logo">Zohra Neda</a>
-        <nav class="header-item nav item2">
-            <div class="hamburger-container">
-                <ul class="hamburger-ul">
-                    <li class="hamburger-ul-list"><a class="menuLink" href="#middle">Portfolio</a></li>
-                    <li class="hamburger-ul-list"><a class=" menuLink" href="#about">About</a></li>
-                    <li class="hamburger-ul-list"><a class="menuLink" href="#contact-form">Contact</a></li>
-                </ul>
-                <a type="button" class="hamburger-close">&#x2716;</a>
+    <header>
+        <nav id="nav" class="d-flex">
+            <a href="#" class="logo">
+                <p>Zohra Neda</p>
+            </a>
+            <div id="hamburger-menu">
+                <button id="hamburger" type="button" class="hamburger">
+                    <span class="ham-top"></span>
+                    <span class="ham-mid"></span>
+                    <span class="ham-bottom"></span>
+                </button>
             </div>
-            <img id="hamburger" class="header-item" src="./images/mobile-images/header/header-icons/Union.png" alt="hamburger-icon" srcset="">
-        </nav>
-        <nav class="des-navbar-container">
-            <a href="#" class="header-item item1" id="des-logo">Zohra Neda</a>
-            <ul class="des-nav-ul">
-                <li class="des-nav-list"><a class="des-nav-list-a" href="#">Portfolio</a></li>
-                <li class="des-nav-lis"><a class="des-nav-list-a" href="#">About</a></li>
-                <li class="des-nav-lis"><a class="des-nav-list-a" href="#">Contact</a></li>
-                <li class="des-nav-lis"><a class="des-nav-list-a" href="#"><img id="des-contact-icon" src="./images/mobile-images/header/header-icons/Union.svg" alt="letter-icon"></a></li>
+
+            <ul class="nav-items list-none">
+                <li><a href="#portfolio"> Portfolio </a></li>
+                <li><a href="#about"> About </a></li>
+                <li><a href="#contact"> Contact</a></li>
             </ul>
         </nav>
+
+        <ul id="menu" class="list-none overlay hidden">
+            <li class="mobileNav-links"><a href="#portfolio">Portfolio</a></li>
+            <li class="mobileNav-links"><a href="#about">About</a></li>
+            <li class="mobileNav-links"><a href="#contact">Contact</a></li>
+        </ul>
+
     </header>
-    <!-- End header section -->
-
-    <!-- Main Container Start -->
     <main>
-        <!-- Headline section -->
-        <section class="intro-container">
-            <div class="intro-content intro-section-item">
-                <h1 class="intro-content-item" id="intro-h1">Hey There.<br>I’m Zohra.</h1>
-                <h2 class="intro-content-item" id="intro-h2">I'm a Software Developer</h2>
-                <p class="intro-content-item" id="intro-p">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hesitate to contact me.</p>
-            </div>
-            <ul class="intro-content-item  icons-container  des-icons-container">
-                <li class="des-icon-item"><a class="icon-item" href="#"><img id="github" class="social-icons" src="./images/mobile-images/header/header-icons/github.svg" alt="gitHub-icon"></a></li>
-                <li class="des-icon-item"><a class="icon-item" href="#"><img  id="linkedin2" class="social-icons" src="./images/mobile-images/header/header-icons/linkedin.svg" alt="linkedin-icon"></a></li>
-                <li class="des-icon-item"><a class="icon-item" href="#"><img id="hand" class="social-icons" src="./images/mobile-images/header/header-icons/angellist.svg" alt="angellist-icon"></a></li>
-                <li class="des-icon-item"><a class="icon-item" href="#"><img id="twitter" class="social-icons" src="./images/mobile-images/header/header-icons/twitter.svg" alt="twitter-icon"></a></li>
-                <li class="des-icon-item"><a class="icon-item" href="#"><img id="medium" class="social-icons" src="./images/mobile-images/header/header-icons/m.svg" alt="m-icon"></a></li>
-            </ul>
-        </section>
-        <!-- End Headline Section -->
+        <!-- hero section -->
+        <section class="hero d-flex flex-column">
+            <div class="header-shapes">
+                <div class="hero-content">
+                    <div class="hero-title ">
+                        <h1>Hey There. <br> I’m Zohra.</h1>
+                    </div>
+                    <div class="hero-para ">
+                        <h2>I'm a Software Developer</h2>
+                        <p>
+                            I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
 
-        <!-- Middle section -->
-        <section class="recent-works" id="middle">
-            <div class="recent-works-content">
-                <h1 class="recent-works-h1">My Recent Works</h1>
-                <hr class="recent-works-hr">
-            </div>
-            <div class="project-container  project1">
-            </div>
-
-            <!-- POPUP CONTAINER START -->
-            <div class="popup-container">
-            </div>
-            <!-- POPUP CONTAINER END -->
-
-            <!-- Project carts -->
-            <div class="cart-container">
-            </div>
-            <!-- Project car end -->
-        </section>
-        <!-- End Middle section -->
-
-        <!-- About section -->
-        <section class="about" id="about">
-            <div class="about-content">
-                <div class="about-items des-about-item">
-                    <h2 class="about-title">About me</h2>
-                    <p class="about-p">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-                    <button class="resume-btn buttons" type="button">Get my resume</button>
+gitHub-icon
+linkedin-icon
+angellist-icon
+twitter-icon
+                        </p>
+                    </div>
+                    <div>
+                        <p class="hero-social">
+                            let's connect
+                        </p>
+                        <ul class="hero-icons d-flex">
+                            <li>
+                                <a target="_blank" href="https://twitter.com/ZohraNeda" rel="noopener noreferrer"><img
+                                        src="./images/twitter.svg" alt="twitter logo"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/zohra-neda/"
+                                    rel="noopener noreferrer"><img src="./images/linkedin.svg" alt="linkedIn logo"></a>
+                            </li>
+                            <li>
+                                <a target="_blank"
+                                    href="https://medium.com/@zohra.neda"
+                                    rel="noopener noreferrer"><img src="./images/medium.svg" alt="medium logo"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Zohra-Neda"><img
+                                        src="./images/github.svg" alt="github logo"></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <img class="about-hr" src="./images/mobile-images/about/Container.png" alt="about-img">
-                <!-- <hr class="about-line"> -->
-                <ul id="techs">
-                    <li class="skills"><img src="./images/mobile-images/about/Rectangle 55.svg" alt="list-icon">Language
-                        <ul id="language">
-                            <li>Javascript</li>
-                            <li>Ruby</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
-                    </li>
-                    <li class="skills"><img src="./images/mobile-images/about/Rectangle 56.svg" alt="list-icon">Frameworks
-                        <ul id="frameworks">
-                            <li>React.js</li>
-                            <li>Ruby on Rails</li>
-                            <li>RSpes</li>
-                            <li>Copybara</li>
-                        </ul>
-                    </li>
-                    <li class="skills des-skills"><img src="./images/mobile-images/about/Rectangle 57.svg" alt="list-icon">Skills
-                        <ul id="skills">
-                            <li>Database Management</li>
-                            <li>Version Control</li>
-                            <li>CLI</li>
-                            <li>API Design</li>
-                            <li>Web Development</li>
-                        </ul>
-                    </li>
-                </ul>
             </div>
-        </section><br><br>
-        <!-- End About section -->
-    </main>
-    <!-- End Main Container -->
+        </section>
 
-    <!-- Contact form start -->
-    <footer class="contact-me" id="contact-form">
-        <div class="contact-content">
-            <h2 class="contact-form-h2" id="h2">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-            <form class="form" id="form" action="https://formspree.io/f/xyyangbj" method="POST">
-                <input class="input-box" id="username" type="text" name="name" placeholder="Full name" maxlength="30" required/>
-                <hr class="input-box-hr">
-                <input id="email" class="input-box" type="email" name="email" placeholder="Email address" required/>
-                <hr class="input-box-hr">
-                <textarea class="input-box msg" id="msg" name="msg" maxlength="500" placeholder="Write me something..." required></textarea>
-                <button type="submit" class="form-submit buttons">Get in touch</button>
-                <span class="alert"></span>
-            </form>
-        </div>
-        <div class="social-media-icons">
-            <hr id="footer-hr">
-            <ul class="icons-container  footer-icon-container">
-                <li class="icon-element github-icon"><a href="#"><img src="./images/mobile-images/footer/icon/github.svg" alt="github-icon"></a></li>
-                <li class="icon-element linkedin-icon"><a href="#"><img src="./images/mobile-images/footer/icon/linkdin.svg" alt="linkedin-icon"></a></li>
-                <li class="icon-element ang-icon"><a href="#"><img src="./images/mobile-images/footer/icon/angellist.svg" alt="angellist-icon"></a></li>
-                <li class="icon-element twitter-icon"><a href="#"><img src="./images/mobile-images/footer/icon/twitter.svg" alt="twitter-icon"></a></li>
-                <li class="icon-element m-icon"><a href="#"><img src="./images/mobile-images/footer/icon/medium.svg" alt="m-icon"></a></li>
-            </ul>
-        </div>
-    </footer>
-    <!-- Contact form end -->
-    <script src="script.js"></script>
+        <!-- works section -->
+
+        <section class="works" id="portfolio">
+            <h2 class="works-title">My Projects</h2>
+        </section>
+
+
+
+        <!-- about section -->
+
+        <section class="about" id="about">
+            <div class="about-md">
+                <div class="top">
+                    <div class="hero-title ">
+                        <h2>About <br> Myself</h2>
+                    </div>
+                    <div class="hero-para ">
+                        <p>
+                            I am a Software Developer! I will help you in materializing your dream product, feature or
+                            website.
+                            have a look at my work and experience and if you touched by my work then please
+                            contact
+                            me
+                            by
+                            clicking the icons below. I will be more than happy to hear you out.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="hero-social">
+                            let's connect
+                        </p>
+                        <ul class="hero-icons d-flex">
+                            <li>
+                                <a target="_blank" href="https://twitter.com/ZohraNeda" rel="noopener noreferrer"><img
+                                        src="./images/twitter.svg" alt="twitter logo"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/zohra-neda/"
+                                    rel="noopener noreferrer"><img src="./images/linkedin.svg" alt="linkedIn logo"></a>
+                            </li>
+                            <li>
+                                <a target="_blank"
+                                    href="https://medium.com/@zohra.neda"
+                                    rel="noopener noreferrer"><img src="./images/medium.svg" alt="medium logo"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Zohra-Neda"><img
+                                        src="./images/github.svg" alt="github logo"></a>
+                            </li>
+
+                        </ul>
+                        <div class="about-action ">
+                            <a target="_blank" rel="noopener noreferrer" href="https://zohra-neda.github.io/Portfolio/images/Resume.pdf"
+                                class="btn resume" type="button">Get my Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="languages">
+                    <ul>
+                        <li class="skills-list">
+                            <div class="skill-list">
+                                <h2>Languages</h2>
+                                <img src="./images/arrow1.svg" alt="" class="collapsible">
+                            </div>
+                            <ul class="content skills-list">
+                                <li>JavaScript</li>
+                                <li>Ruby</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </li>
+                        <li class="skills-list">
+                            <div class="skill-list">
+                                <h2>Frameworks</h2>
+                                <img src="./images/arrow1.svg" alt="" class="collapsible">
+                            </div>
+                            <ul class="content skills-list">
+                                <li>React & Redux</li>
+                                <li>Ruby on Rails</li>
+                                <li>Tailwind CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Jest</li>
+                                <li>RSpec</li>
+                            </ul>
+                        </li>
+                        <li class="skills-list">
+                            <div class="skill-list">
+                                <h2>Skills</h2>
+                                <img src="./images/arrow1.svg" alt="" class="collapsible">
+                            </div>
+                            <ul class="content skills-list">
+                                <li>Postgresql</li>
+                                <li>Github</li>
+                                <li>Git</li>
+                                <li>Heroku, Netlify</li>
+                                <li>Code Reviewer</li>
+                                <li>Pair-Programming</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- form-section -->
+        <footer id="footer">
+            <section class="form-container d-flex flex-column" id="contact">
+                <div class="form-content">
+                    <h2>Contact me</h2>
+                    <p>If you have an application you are interested in developing, a feature that you need built or a
+                        project that needs coding. I’d love to help with it </p>
+                </div>
+                <form class="form d-flex" id="form" action="https://formspree.io/f/xyyangbj" method="POST">
+                    <ul class="form-ul d-flex flex-column">
+                        <li>
+                            <label for="user_name">
+                                <input type="text" class="form-text" id="user_name" name="user_name" placeholder="Name"
+                                    maxlength="30" required>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="email">
+                                <input type="email" class="form-email d-flex flex-column" id="email" name="email"
+                                    placeholder="Email" required>
+                                <small class="error-mesg"></small>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="textarea">
+                                <textarea name="user_message" class="form-textarea" id="textarea"
+                                    placeholder="Write your message here" maxlength="500" required></textarea>
+                            </label>
+                        </li>
+                        <li>
+                            <button class="btn btn-form" type="submit">Get in Touch</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="https://kit.fontawesome.com/baf7e9f545.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
