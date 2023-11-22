@@ -485,7 +485,7 @@ body.active {
     position: fixed;
     justify-content: space-between;
     width: 100%;
-    background: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
   }
 
   .logo {
