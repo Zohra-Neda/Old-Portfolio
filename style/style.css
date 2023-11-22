@@ -41,12 +41,9 @@ body.active {
 
 #nav {
   display: flex;
-  height: 7vh;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  box-shadow: 0 1px 10px -5px grey;
-  padding: 26px 24px;
+  padding: 10px 20px;
   background-color: white;
 }
 
@@ -179,10 +176,11 @@ body.active {
   background-size: cover;
   background-position: center;
   padding-top: 5rem;
+  border-bottom-left-radius: 100px;
 }
 
 .header-shapes {
-  background-image: url(../images/header-shapes-mobile.svg);
+  background-image: url(../images/background-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -227,6 +225,15 @@ body.active {
 .hero-icons li:hover {
   transform: scale(1.2);
   box-shadow: 0 1px 4px 2px #6070ff;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 12px;
+  margin-bottom: 14px;
 }
 
 /* works section */
@@ -473,13 +480,12 @@ body.active {
 
 @media screen and (min-width: 768px) {
   #nav {
-    padding: 26px 80px;
-    height: 72px;
-    z-index: 1;
-    box-shadow: 0 1px 10px -5px grey;
+    display: flex;
+    padding: 10px 135px;
     position: fixed;
-    top: 0;
-    left: 0;
+    justify-content: space-between;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
   }
 
   .logo {
@@ -530,6 +536,7 @@ body.active {
     overflow: hidden;
     padding-top: 0;
     padding-bottom: 1rem;
+    border-bottom-left-radius: 100px;
   }
 
   .header-shapes {

@@ -50,7 +50,7 @@ const works = [
     repository: 'https://github.com/Zohra-Neda/Awesome-Books',
     technology: ['HTML', 'CSS', 'JavaScript'],
     description:
-      'This is a mini website which is created by html css and javascript, looking for a fun and interactive way to organize your book collection? Look no further than Awesome Book! This mini website is the perfect solution for book lovers who want to keep track of their favorite reads in a visually appealing and user-friendly way.',
+      'This is a mini website which is created by HTML, CSS and javaScript, looking for a fun and interactive way to organize your book collection? Look no further than Awesome Book! This mini website is the perfect solution for book lovers who want to keep track of their favorite reads in a visually appealing and user-friendly way.',
   },
   {
     name: 'To-Do List',
